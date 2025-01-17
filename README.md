@@ -1,1 +1,10 @@
-# mindgpt
+# wevi
+
+## Quick Start
+
+### Install
+
+
+### Usage
+
+
