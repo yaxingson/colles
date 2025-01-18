@@ -1,6 +1,6 @@
 {
   "name": "colles",
-  "private":true,
+  "private": true,
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,10 @@
   },
   "keywords": [],
   "author": "yaxingson <3228891558@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.2"
+  }
 }

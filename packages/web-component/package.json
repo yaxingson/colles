@@ -1,3 +1,8 @@
 {
-  "name":"@colles/web-component"
+  "name": "@colles/web-component",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.2"
+  }
 }
