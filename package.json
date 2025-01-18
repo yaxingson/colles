@@ -1,6 +1,7 @@
 {
-  "name": "wevi",
-  "version": "1.0.0",
+  "name": "colles",
+  "private":true,
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
