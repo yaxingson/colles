@@ -54,6 +54,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2(@types/node@22.10.7)
 
+  packages/util: {}
+
   packages/web-component:
     devDependencies:
       '@types/node':
@@ -68,12 +70,18 @@ importers:
 
   playground:
     devDependencies:
+      '@colles/web-component':
+        specifier: workspace:*
+        version: link:../packages/web-component
       '@types/node':
         specifier: ^22.10.7
         version: 22.10.7
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
+      vite:
+        specifier: ^6.0.7
+        version: 6.0.7(@types/node@22.10.7)
       vitest:
         specifier: ^3.0.2
         version: 3.0.2(@types/node@22.10.7)
