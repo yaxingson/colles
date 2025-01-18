@@ -1,2 +1,2 @@
-# @colles/signal
+# @colles/signals
 
